@@ -1,0 +1,58 @@
+.footer
+    background: $color-black
+    clip-path: polygon(50% 0, 82% 14%, 100% 0, 100% 100%, 0 100%, 0 0, 21% 12%)
+    width: 100%
+    height: 64.7rem
+    padding: 17.4rem 17.6rem 4.9rem 15.4rem
+    &-top
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border-bottom: 1px solid rgba(255, 255, 255, .2)
+        padding-bottom: 3rem
+        margin-bottom: 3.4rem
+    &-search
+        position: relative
+        background: none
+        border: 1px solid  rgba(255, 255, 255, .2)
+        padding-right: 2.6rem
+        &-button
+            background: none
+            border: none
+            color: $color-white
+            font-size: 1.8rem
+            transition: all .3s
+            &:focus
+                outline: none
+            &:hover
+                color: $color-orange
+                cursor: pointer
+            &:active
+                color: $color-white
+        label
+            color: $color-white
+            position: absolute
+            top: 1.1rem 
+            left: 5.7rem
+            font-size: 1.6rem
+            font-weight: 500
+            span
+                color: $color-orange
+    &-input
+        background: none
+        border: none
+        width: 66.7rem
+        height: 4.8rem
+        color: $color-white
+        font-size: 1.6rem
+        font-weight: 500
+        background: url(../icons/footer/Vector.svg) no-repeat 22px center
+        padding-left: 5.7rem
+        &:focus
+            outline: none
+    &-apps
+        color: $color-white
+        &-bottom
+            display: flex
+            align-items: center
+        
