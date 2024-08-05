@@ -72,3 +72,16 @@
         &:active
             background: none
             color: $color-black
+
+
+.categories-button
+    background: none
+    border: none
+    transition: all .3s
+    font-size: 4rem
+    &:focus
+        outline: none
+    &:hover
+        @include hoverButton
+    &:active
+        @include activeButton
